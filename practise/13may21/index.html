@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        th,td{
+            padding: 0px 10px 0px 10px;
+        }
+        div{
+            padding: 3px;
+        }
+        
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!----------------------------Lists--------------------------------------------->
+    <h1>Lists</h1>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3
+            <ol type="A">
+                <li>3.1</li>
+                <li>3.2</li>
+            </ol>
+        <li>4</li>
+        <li>5</li>
+        </li>
+    </ul>
+<!-----------------------------table------------------------------------------------>
+<h1>Table</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Divya</td>
+                <td>Nallayyagari</td>
+                <td>divyanallayyagari@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Shravani</td>
+                <td>Bada</td>
+                <td>Shravbada@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Haritha</td>
+                <td>Puch</td>
+                <td>harichow@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!------------------------------------Form----------------------------------------------->
+
+<h1>Form</h1>
+
+    <form>
+        <div>
+            <label for="Name">Name</label><br>
+            <input type="text">
+        </div>
+        <div>
+            <label for="Email">Email</label><br>
+            <input type="text">
+        </div>
+        <div>
+            <label for="Message">Message</label><br>
+            <textarea name="Message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="sex">Sex</label>
+            <select name="sex" id="sex">
+                <option value="Male">male</option>
+                <option value="Female">female</option>
+                <option value="Other">other</option>
+            </select>
+        </div>
+        <div>
+            <label for="Age">Age</label><br>
+            <input type="number">
+        </div>
+        <div>
+            <label for="BirthDate">BirthDate</label><br>
+            <input type="date">
+        </div>
+        <div>
+            <label for="membership">Membership</label>
+            
+            <input type="radio" id="Simple" name="Simple" value="Simple">
+            <label for="Simple">Simple</label>
+            
+            <input type="radio" id="Standard" name="Standard" value="Standard">
+            <label for="Standard">Standard</label>
+            
+            <input type="radio" id="Super" name="Super" value="Super">
+            <label for="Super">Super</label>
+        </div>
+        <div>
+            <label for="I Like...">I Like...</label>
+            <input type="checkbox">
+            <label for="Bike">Bike</label>
+            <input type="checkbox">
+            <label for="Car">Car</label>
+            <input type="checkbox">
+            <label for="Boat">Boat</label>
+        </div>
+        <div>
+            
+            
+            <input type="submit" value="Submit">
+            <input type="submit" value="Finish">
+        </div>
+        
+
+
+
+    </form>
+    
+</body>
+</html>
